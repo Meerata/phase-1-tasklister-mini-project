@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     newTask.textContent = newTaskDescription;
 
     // Delete button for each task
-    const deleteButton = document.createElement("button");
+    const deleteButton = document.createElement("buttonsd");
     deleteButton.textContent = "Delete";
     deleteButton.addEventListener("click", () => {
       taskList.removeChild(newTask);
